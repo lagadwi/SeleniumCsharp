@@ -145,6 +145,7 @@
     <Compile Include="testSelenium\FindingWebElements.cs" />
     <Compile Include="testSelenium\GettingStartedReport.cs" />
     <Compile Include="testSelenium\LoginTest.cs" />
+    <Compile Include="testSelenium\WebDriverActions.cs" />
     <Compile Include="util\ReportHelper.cs" />
     <Compile Include="util\WebDriverExtensions.cs" />
   </ItemGroup>

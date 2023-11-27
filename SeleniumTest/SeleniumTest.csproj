@@ -142,9 +142,14 @@
     <Compile Include="pageObjectModel\LoginPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testSelenium\BasicInteractions.cs" />
+    <Compile Include="testSelenium\Cookies.cs" />
+    <Compile Include="testSelenium\DragAndDrop.cs" />
     <Compile Include="testSelenium\FindingWebElements.cs" />
     <Compile Include="testSelenium\GettingStartedReport.cs" />
     <Compile Include="testSelenium\LoginTest.cs" />
+    <Compile Include="testSelenium\IframeInteractions.cs" />
+    <Compile Include="testSelenium\WindowsInteractions.cs" />
     <Compile Include="util\ReportHelper.cs" />
     <Compile Include="util\WebDriverExtensions.cs" />
   </ItemGroup>

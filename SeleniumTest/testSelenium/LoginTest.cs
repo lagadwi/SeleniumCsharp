@@ -1,4 +1,4 @@
-﻿
+﻿ 
 using System;
 using System.Threading;
 using NUnit.Framework;
@@ -6,6 +6,8 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
 [TestFixture]
+[Parallelizable(ParallelScope.Fixtures)]
+
 public class LoginTest
 {
     private IWebDriver driver;
@@ -17,7 +19,7 @@ public class LoginTest
         ChromeOptions options = new ChromeOptions();
         options.AddArgument("--headless");
         options.AddArgument("--disable-gpu");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
     }

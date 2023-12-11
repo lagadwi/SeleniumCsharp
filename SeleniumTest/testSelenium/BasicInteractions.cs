@@ -10,6 +10,8 @@ using OpenQA.Selenium.Support.UI;
 
 
 [TestFixture]
+[Parallelizable(ParallelScope.Fixtures)]
+
 public class BasicInterations
 {
 

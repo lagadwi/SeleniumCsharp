@@ -147,8 +147,11 @@
     <Compile Include="testSelenium\DragAndDrop.cs" />
     <Compile Include="testSelenium\FindingWebElements.cs" />
     <Compile Include="testSelenium\GettingStartedReport.cs" />
+    <Compile Include="testSelenium\LoginTestParallel.cs" />
     <Compile Include="testSelenium\LoginTest.cs" />
     <Compile Include="testSelenium\IframeInteractions.cs" />
+    <Compile Include="testSelenium\SeleniumGrid.cs" />
+    <Compile Include="testSelenium\SeleniumGridConcurrency.cs" />
     <Compile Include="testSelenium\WindowsInteractions.cs" />
     <Compile Include="util\ReportHelper.cs" />
     <Compile Include="util\WebDriverExtensions.cs" />
